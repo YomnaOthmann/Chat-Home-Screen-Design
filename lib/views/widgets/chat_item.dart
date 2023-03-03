@@ -62,7 +62,7 @@ class ChatItem extends StatelessWidget {
           ],
         ),
         const Spacer(),
-        if (model.seen ?? false)
+        if (model.arrived ?? false)
           const Icon(
             Icons.check_circle,
             color: Colors.grey,
